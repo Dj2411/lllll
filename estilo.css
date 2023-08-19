@@ -1,0 +1,32 @@
+.vima{
+    padding-top: 3%;
+    margin: 10%;
+    color: black;
+    background-color: rgb(38, 89, 104);
+    text-align: center;
+}
+.menu {
+  
+    font-family:'Courier New', Courier, monospace;
+    float: none;
+    color: rgb(47, 0, 158);
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(231, 201, 145);
+    margin: 0%;
+    padding: 0%;
+    
+}
+header{
+    color: black;
+    background-color: rgb(223, 185, 116);
+    text-align: center;
+    
+}
+span{
+    margin-right: 100px;
+}
+body{
+    background-color:bisque;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo5.css">
+<body>
+    <nav class="menu">
+        <span><a href="inicio.html">Principal</a></span>
+         
+        <span><a href="definicion.html">¿Qué es PLC?</a></span>
+     
+         <span><a href="funcionamiento.html">¿Cual es el funcionamiento de PLC?</a></span>
+     
+         <span> <a href="Aplicaciones.html">Aplicaciones de los PLC</a></span>
+ 
+         <span><a href="forumulario.html">Formulario</a></span>
+     </nav>
+    <h1>Formulario de contacto</h1>
+    <div class="p5">
+        <form action="/enviar_formulario" method="post">
+        <label for="nombre">Nombre  y Apellido:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="Numero">Numero:</label>
+        <input type="number" id="Numero" name="Numero" pattern="[0-9]{10}" required><br><br>
+
+        <label for="direccion">Dirección:</label><br>
+        <textarea id="direccion" name="direccion" rows="2" cols="50" required></textarea><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+</body>
+</html>
